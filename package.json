@@ -1,0 +1,24 @@
+{
+  "name": "mongo-getter",
+  "description": "Very simple resource pooling for MongoDB connections",
+  "version": "0.0.1",
+  "author": {
+    "name": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/"
+  },
+  "url": "http://github.com/deoxxa/node-mongo-getter",
+  "license" : "BSD",
+  "repository" : { "type":"git", "url":"git://github.com/deoxxa/node-mongodb-getter.git" },
+  "keywords" : [
+    "mongodb",
+    "pool"
+  ],
+  "main": "./lib/mongodb-getter",
+  "dependencies": {
+    "mongodb": ">=0.9.6"
+  },
+  "engines": {
+    "node" : ">=0.4.5"
+  }
+}
