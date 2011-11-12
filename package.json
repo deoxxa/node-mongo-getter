@@ -1,7 +1,7 @@
 {
   "name": "mongo-getter",
   "description": "Very simple resource pooling for MongoDB connections",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "author": {
     "name": "Conrad Pankoff",
     "email": "deoxxa@fknsrs.biz",
@@ -16,7 +16,6 @@
   ],
   "main": "./lib/mongo-getter",
   "dependencies": {
-    "mongodb": ">=0.9.6"
   },
   "engines": {
     "node" : ">=0.4.5"
